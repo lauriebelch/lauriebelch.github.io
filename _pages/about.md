@@ -17,42 +17,63 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+## Laurence Belcher
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+**Department of Biology, University of Oxford**  
+Email: [laurence.belcher@biology.ox.ac.uk](mailto:laurence.belcher@biology.ox.ac.uk)  
+Google Scholar: [https://scholar.google.com/citations?user=e3c1TdffPOcC](https://scholar.google.com/citations?user=e3c1TdffPOcC)
 
+---
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## Research
 
-# 📝 Publications 
+My research focuses on the genomics of adaptation and the evolutionary basis of social behaviour. I develop and apply computational methods for comparative genomics to understand how genomic change underpins adaptive traits, with a particular interest in cooperation.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+My work integrates method development, population genetics, and large-scale comparative genomics. I have contributed to the development and application of tools such as **OrthoFinder** for scalable orthology inference and **GLADE** for reconstructing evolutionary gains, losses, and duplication events. Using these approaches, I study the evolution of cooperation across diverse taxa, with an emphasis on linking gene-level processes to evolutionary and ecological patterns.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+---
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+## Academic Positions
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- **Research Associate**, University of Oxford  
+- **College Lecturer**, St John’s College, University of Oxford
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+---
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+## Education
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **PhD**, University of Bath  
+  *Conflict and Cooperation in a Social Microbe*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- **MRes in Evolutionary Biology**, University of Exeter
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- **BSc in Zoology**, University of Exeter (First Class)
+
+---
+
+## Teaching
+
+I am actively involved in undergraduate teaching at the University of Oxford. I deliver small-group tutorial teaching in evolution, ecology, and statistics at St John’s College and have lectured within the Department of Biology as a temporary departmental lecturer.
+
+My teaching covers core evolutionary topics including natural selection, inclusive fitness, eusociality, and the modern synthesis, and I have taught cohorts ranging from small tutorial groups to large undergraduate lecture audiences.
+
+---
+
+## Supervision
+
+I co-supervise doctoral students working on social evolution and comparative genomics at the University of Oxford and contribute to undergraduate and postgraduate project supervision.
+
+---
+
+## Outreach and Service
+
+I am committed to widening participation in higher education and regularly contribute to access and outreach programmes at the University of Oxford, supporting students from under-represented backgrounds interested in biological sciences.
+
+I also contribute to departmental service through committee work within the Department of Biology.
+
+---
+
+## Publications
+
+A full list of peer-reviewed publications is available on my  
+[Google Scholar profile](https://scholar.google.com/citations?user=e3c1TdffPOcC).
