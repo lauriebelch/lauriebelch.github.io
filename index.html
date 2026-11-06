@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laurence Belcher</title>
+<meta name="description" content="Laurence Belcher, Department of Biology, University of Oxford. The genomics of adaptation, the evolution of cooperation, and comparative genomic methods. Lead developer of OrthoFinder.">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --mid: #5a5a5a;
+    --faint: #8a857c;
+    --rule: #e0ddd6;
+    --bg: #fdfcfa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8e6e1;
+      --mid: #9a968e;
+      --faint: #726d65;
+      --rule: #32302c;
+      --bg: #161513;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 40rem; margin: 0 auto; padding: 4.5rem 1.5rem 6rem; }
+
+  h1 { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 0.2rem; }
+  .role { color: var(--mid); margin: 0; }
+
+  .portrait {
+    float: right;
+    width: 7.5rem; height: 7.5rem;
+    object-fit: cover;
+    border-radius: 2px;
+    margin: 0.2rem 0 1rem 1.5rem;
+  }
+
+  nav {
+    clear: both;
+    margin: 2.25rem 0 2.5rem;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+  }
+  nav button {
+    appearance: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    padding: 0 0 0.5rem;
+    font: inherit;
+    font-size: 0.95rem;
+    color: var(--mid);
+    cursor: pointer;
+  }
+  nav button:hover { color: var(--ink); }
+  nav button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+
+  h2 {
+    font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--mid);
+    margin: 2.75rem 0 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  section > h2:first-child { margin-top: 0; }
+
+  p { margin: 0 0 1rem; }
+  a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--rule); }
+  a:hover { border-bottom-color: var(--ink); }
+
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin: 0 0 1rem; }
+  .tight li { margin-bottom: 0.6rem; }
+
+  .name { font-weight: 600; }
+  .note, .venue { color: var(--mid); }
+  .me { font-weight: 600; }
+  .pub { display: block; }
+
+  .entry { margin-bottom: 1.6rem; }
+  .entry h3 { font-size: 1rem; font-weight: 600; margin: 0 0 0.1rem; }
+  .entry .where { color: var(--mid); margin: 0 0 0.45rem; font-size: 0.95rem; }
+  .entry p { margin: 0 0 0.5rem; }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1rem;
+    border-top: 1px solid var(--rule);
+    color: var(--mid); font-size: 0.9rem;
+  }
+  footer a { border-bottom: none; }
+  footer a:hover { border-bottom: 1px solid var(--mid); }
+
+  @media (max-width: 30rem) {
+    .page { padding-top: 3rem; }
+    .portrait { float: none; display: block; margin: 0 0 1.25rem; }
+    nav { gap: 1.1rem; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <img class="portrait" src="photo.jpg" alt="Laurence Belcher">
+  <h1>Laurence Belcher</h1>
+  <p class="role">Department of Biology, University of Oxford</p>
+
+  <nav role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-about" aria-controls="about" aria-selected="true">About</button>
+    <button role="tab" id="tab-publications" aria-controls="publications" aria-selected="false">Publications</button>
+    <button role="tab" id="tab-teaching" aria-controls="teaching" aria-selected="false">Teaching</button>
+    <button role="tab" id="tab-software" aria-controls="software" aria-selected="false">Software</button>
+  </nav>
+
+  <section id="about" role="tabpanel" aria-labelledby="tab-about">
+    <p>My research is on the genomics of adaptation. I want to know how change in a genome
+    produces the traits an organism needs, and I go after that question with experiments,
+    population genetics and comparisons across thousands of species at once.</p>
+
+    <p>The longest-running thread is the evolution of social behaviour. Why do bacteria
+    help each other when cheating is an option, and what does a history of helping leave
+    behind in a genome? I have shown that cooperation in wild bacterial populations is
+    favoured by kin selection, and that development itself can hold cheating in check in a
+    social amoeba. Alongside that I work on what a species' way of life does to its gene
+    content, and on what patterns of gene gain and loss reveal about which genes
+    matter.</p>
+
+    <p>All of this depends on the methods being good enough, so I build them as well. I
+    lead the development of
+    <a href="https://github.com/OrthoFinder/OrthoFinder">OrthoFinder</a> and the team
+    behind it. I wrote <a href="https://github.com/lauriebelch/GLADE">GLADE</a>,
+    <a href="https://github.com/lauriebelch/SOCfinder">SOCfinder</a> and
+    <a href="https://github.com/lauriebelch/OrthoSimulator">OrthoSimulator</a>.</p>
+
+    <p>I have taught biology at St John's College since 2021. I give small-group tutorials
+    across evolutionary biology, ecology and statistics, to undergraduates in every year
+    group. I have also lectured on the department's undergraduate course, and I
+    co-supervise PhD students.</p>
+  </section>
+
+  <section id="publications" role="tabpanel" aria-labelledby="tab-publications" hidden>
+    <p>The full and current list is on
+    <a href="https://scholar.google.com/citations?user=e3c1TdffPOcC">Google Scholar</a>.</p>
+
+    <h2>Published</h2>
+    <ul>
+      <li class="pub">Emms, Liu, <span class="me">Belcher</span>, Holmes, Kelly.
+        <a href="https://doi.org/10.1038/s41592-026-03126-6">OrthoFinder: improved phylogenetic
+        orthology inference with enhanced accuracy and scalability</a>.
+        <span class="venue">Nature Methods, 2026</span></li>
+      <li class="pub">Hao, Konno, Ito, <span class="me">Belcher</span>, Iwasaki, West.
+        <a href="https://doi.org/10.1073/pnas.2520645123">Cooperation and the evolution of
+        bacterial niche breadth</a>.
+        <span class="venue">PNAS, 2026</span></li>
+      <li class="pub">West, Dewar, Iritani, <span class="me">Belcher</span>, Griffin.
+        <a href="https://doi.org/10.1086/739292">The evolutionary and ecological consequences
+        of cooperation</a>.
+        <span class="venue">The American Naturalist, 2026</span></li>
+      <li class="pub">Dewar, <span class="me">Belcher</span>, West.
+        <a href="https://doi.org/10.1038/s41576-024-00803-0">A phylogenetic approach to
+        comparative genomics</a>.
+        <span class="venue">Nature Reviews Genetics, 2025. Joint first author.</span></li>
+      <li class="pub">Dewar, Hao, <span class="me">Belcher</span>, Ghoul, West.
+        <a href="https://doi.org/10.1073/pnas.2320170121">Bacterial lifestyle shapes
+        pangenomes</a>.
+        <span class="venue">PNAS, 2024</span></li>
+      <li class="pub">Dewar, <span class="me">Belcher</span>, Scott, West.
+        <a href="https://doi.org/10.1098/rspb.2023.2549">Genes for cooperation are not more
+        likely to be carried by plasmids</a>.
+        <span class="venue">Proceedings of the Royal Society B, 2024</span></li>
+      <li class="pub"><span class="me">Belcher</span>, Dewar, Hao, Katz, Ghoul, West.
+        <a href="https://doi.org/10.1099/mgen.0.001171">SOCfinder: a genomic tool for
+        identifying social genes in bacteria</a>.
+        <span class="venue">Microbial Genomics, 2023</span></li>
+      <li class="pub"><span class="me">Belcher</span>, Dewar, Hao, Ghoul, West.
+        <a href="https://doi.org/10.1093/evlett/qrad029">Signatures of kin selection in a
+        natural population of the bacteria <i>Bacillus subtilis</i></a>.
+        <span class="venue">Evolution Letters, 2023</span></li>
+      <li class="pub"><span class="me">Belcher</span>, Madgwick, Kuwana, Stewart, Thompson, Wolf.
+        <a href="https://doi.org/10.1073/pnas.2111233119">Developmental constraints enforce
+        altruism and avert the tragedy of the commons in a social microbe</a>.
+        <span class="venue">PNAS, 2022</span></li>
+      <li class="pub"><span class="me">Belcher</span>, Dewar, Ghoul, West.
+        <a href="https://doi.org/10.1073/pnas.2119070119">Kin selection for cooperation in
+        natural bacterial populations</a>.
+        <span class="venue">PNAS, 2022</span></li>
+      <li class="pub">Madgwick, <span class="me">Belcher</span>, Wolf.
+        <a href="https://doi.org/10.1016/j.tree.2019.08.001">Greenbeard genes: theory and
+        reality</a>.
+        <span class="venue">Trends in Ecology &amp; Evolution, 2019</span></li>
+      <li class="pub">Madgwick, Stewart, <span class="me">Belcher</span>, Thompson, Wolf.
+        <a href="https://doi.org/10.1073/pnas.1716087115">Strategic investment explains
+        patterns of cooperation and cheating in a microbe</a>.
+        <span class="venue">PNAS, 2018</span></li>
+      <li class="pub">Bunning, Rapkin, <span class="me">Belcher</span>, Archer, Jensen, Hunt.
+        <a href="https://doi.org/10.1098/rspb.2014.2144">Protein and carbohydrate intake
+        influence sperm number and fertility in male cockroaches, but not sperm
+        viability</a>.
+        <span class="venue">Proceedings of the Royal Society B, 2015</span></li>
+    </ul>
+
+    <h2>In review</h2>
+    <ul>
+      <li class="pub"><span class="me">Belcher</span>, Kelly.
+        <a href="https://doi.org/10.1101/2026.01.27.702036">GLADE: accurate inference of
+        orthogroup gains, gene losses, ancestral gene content and gene duplication events
+        for comparative genomics</a>.
+        <span class="venue">Preprint, 2026</span></li>
+    </ul>
+
+    <h2>Writing elsewhere</h2>
+    <ul class="tight">
+      <li><span class="me">Belcher</span>, Madgwick.
+        <a href="https://theconversation.com/where-does-altruism-come-from-discovery-of-greenbeard-genes-could-hold-the-answer-123208">Where
+        does altruism come from? Discovery of 'greenbeard' genes could hold the answer</a>.
+        <span class="venue">The Conversation, 2019</span></li>
+    </ul>
+  </section>
+
+  <section id="teaching" role="tabpanel" aria-labelledby="tab-teaching" hidden>
+    <div class="entry">
+      <h3>College Lecturer in Biology</h3>
+      <p class="where">St John's College, Oxford. From 2021.</p>
+      <p>I teach small groups across evolutionary biology, ecology, behaviour and
+      statistics, more than seventy contact hours a year, to undergraduates in every year
+      group. I co-lead biology admissions and pastoral care for the college.</p>
+    </div>
+
+    <div class="entry">
+      <h3>Departmental Lecturer</h3>
+      <p class="where">Department of Biology, University of Oxford. 2024&ndash;2025.</p>
+      <p>I gave six lectures in the undergraduate biology curriculum to cohorts of up to a
+      hundred and twenty students, on selfish genetic elements, the modern synthesis,
+      natural selection, the evolution of eusociality, inclusive fitness theory and
+      Hamilton's rule.</p>
+    </div>
+
+    <div class="entry">
+      <h3>Research supervision</h3>
+      <p class="where">University of Oxford. From 2023.</p>
+      <p>I co-supervise two PhD students working in social evolution, along with
+      undergraduate and master's research projects in the department.</p>
+    </div>
+
+    <h2>Widening access</h2>
+
+    <div class="entry">
+      <h3>UNIQ+</h3>
+      <p class="where">University of Oxford. 2021&ndash;2025.</p>
+      <p>I have supervised six students on Oxford's research internship programme for
+      undergraduates from under-represented groups. I still mentor several of them, and I
+      now co-supervise one of them as a PhD student. The Oxford Interdisciplinary
+      Bioscience Doctoral Training Partnership gave me its Outstanding Mentor Award in
+      2025.</p>
+    </div>
+
+    <div class="entry">
+      <h3>Access Programme and Inspire</h3>
+      <p class="where">University of Oxford and St John's College. From 2021.</p>
+      <p>I give talks on studying biology at Oxford for students from under-represented
+      backgrounds, and research talks and workshops for Year 12 and 13 pupils from
+      non-selective state schools.</p>
+    </div>
+  </section>
+
+  <section id="software" role="tabpanel" aria-labelledby="tab-software" hidden>
+    <p>My repositories are at
+    <a href="https://github.com/lauriebelch">github.com/lauriebelch</a>.</p>
+
+    <ul>
+      <li><span class="name"><a href="https://github.com/OrthoFinder/OrthoFinder">OrthoFinder</a></span><br>
+        <span class="note">Phylogenetic orthology inference. Cited by more than ten
+        thousand studies. Development lead.</span></li>
+      <li><span class="name"><a href="https://github.com/lauriebelch/GLADE">GLADE</a></span><br>
+        <span class="note">Infers gene gains, losses, duplications and ancestral gene
+        content across a species tree. Sole developer.</span></li>
+      <li><span class="name"><a href="https://github.com/lauriebelch/SOCfinder">SOCfinder</a></span><br>
+        <span class="note">Finds the genes behind cooperative behaviour in bacteria.
+        Lead developer.</span></li>
+      <li><span class="name"><a href="https://github.com/lauriebelch/OrthoSimulator">OrthoSimulator</a></span><br>
+        <span class="note">Simulated genomes with exact evolutionary ground truth, for
+        benchmarking orthology methods. Co-developer.</span></li>
+      <li><span class="name">COPSE</span><br>
+        <span class="note">Detects gene families that evolve together, from shared losses
+        and duplications. Lead developer. In preparation.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <a href="mailto:laurence.belcher@biology.ox.ac.uk">laurence.belcher@biology.ox.ac.uk</a><br>
+    <a href="https://github.com/lauriebelch">GitHub</a> &middot;
+    <a href="https://scholar.google.com/citations?user=e3c1TdffPOcC">Google Scholar</a>
+  </footer>
+
+</main>
+
+<script>
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('nav [role="tab"]'));
+
+    function show(id, push) {
+      tabs.forEach(function (t) {
+        var on = t.getAttribute('aria-controls') === id;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      });
+      if (push && history.replaceState) history.replaceState(null, '', '#' + id);
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        show(t.getAttribute('aria-controls'), true);
+        window.scrollTo(0, 0);
+      });
+    });
+
+    var start = location.hash.replace('#', '');
+    if (start && document.getElementById(start)) show(start, false);
+  })();
+</script>
+</body>
+</html>
